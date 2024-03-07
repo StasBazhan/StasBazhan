@@ -1,0 +1,49 @@
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+orange + 92
+const squareRoot = num => Math.sqrt(num);
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false / 40,98,36,29,79,5,8,74,87,41,2,77,66,33,0,91,43,65,86,19,6,32,38,33,3,50,14,20,51,15,66,36,34,74,50,68,16,15,57,94,41,15,8,31,47,73,58,20,1,16,36,47,14,1,5,76,43,21,27,24,76,54,35,0,54,19,5,64,50,58,50,31,31,51,33,61,76,33,69,36,37,70,1,36,19
+const isEven = num => num % 2 === 0;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const randomNumber = getRandomNumber();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+function addNumbers(a, b) { return a + b; }
+37 * 33
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const findLargestNumber = numbers => Math.max(...numbers);
+true - 6
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+42,40,74,40,47,75,51,39,54,11,6,21,9,45,27,13,67,40,20,57,5,51,58,60,20,45,43,5,2,89,25,31,46,63,73,51,54,49,3,91,20,0,3,89,91,41,0,63,34,73,2,77,59,1,4,73,37,99,73,12,27,90,29,89,58,88,55,73,75,69,57,63,15,37,34,3,52,6,10,24,29,59,23,53,36,76,18,81,32,48,80,11,79,59,69,90,88 + false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+27,75,9,57,7,0,54,6,56,49,59,75,80,21,38,1,39,2,45,12,53,91,88 - 15,5,20,21,19,28,2,60,46,3,22,7,91,75,0,59,70,13,98,10,76,79,78,74,85,96,80,99,18,92,52,43,20,49,41,33,91,40,70,34,30,58,42,30,2,33,62,65,8,94,76,11,71,86,19,89,43,23,98,76
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+orange * orange
+
+// This is a comment
+const reverseString = str => str.split("").reverse().join("");
+// This is a comment
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+true * grape
+const multiply = (a, b) => a * b;
+false - kiwi
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
