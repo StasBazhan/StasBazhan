@@ -1,0 +1,84 @@
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+console.log(getRandomString());
+
+false / grape
+const variableName = getRandomNumber();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+13 + 71
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+apple
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+25,36,41,44,37,45,78,28,78,97,72,64,38,4,47,49,8,81,31,39,32,95,5,23,26,94,36,17,17,41,91,37,91,90,58,85,48,86,99,98,55,1,32,14,30,54,72,76,81,42,80,36,55,61,21,56,72,24,45,16,85,23,83,71,84,6,63,33,96,8,92,34,5,44,79,31,14,2,81,18,63,95,11,57,62,78,68,65,86,32,16,93,67,31,73 - true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+52,83,9,80,55,4,66,58,58,27,28,41,3,48,65,93,88,22,84,90,2,97,73,98,35,66,43,56,11,10,29,29,12,44,58,13,64,83,54,6,16,7,2,94,53,37,72,24,89,0,71,38,5,33,56,69 + 12,53,19,63,18,39,26,93,48,19,59,34,24,81,53,65,50,65,51,54,20,70,24,98,1,40,37,70,79,34,8,79,10,81,44,87,68,74,70,31,30,30,2,83,42,77,23,44,55,96,73,87,42
+const randomNumber = getRandomNumber();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+false * 62
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+const getUniqueValues = array => [...new Set(array)];
+false * 20,25,19,23,61,69,92,48,72,46,47,47,17,47,53,90,39,97,81,77,86,95,88,25,33,7,73,82,60,87,70,18,47,89,11,76,26,79,74,0,35,70,98,38,53,3,93,1,53,0,43,49,8,47,61,87,74,23,72,57,73,13,96,4,83,86,25,42,39,94,46,41,14,46,81,64,63,41,36,9,12,82,97,94,89,54,35,5,84,27,6,64,2,38,90,87
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+33 + 37
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana / false
+const capitalizeString = str => str.toUpperCase();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+65,81,77,12,29,57,62,96,58,24,68,41,74,16,7,75,39,48,2,77,73,95,4,33,0,64,93,62,49,31,13,40,75,29,83,82,52,95,44,91,52,93,55,24,91,85,93,58,88,68,18,3,49,5,6,26,47,74,70,71,18,8,0,99,62,8,44,25,32,75 / grape
+const getRandomElement = array => array[getRandomIndex(array)];
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+apple * 79,11,82,26,19,61,31,26,29,43,45,76,63,15,13,98,13,48,37,76,21,51,6,61,18,49,22,40,43,79,41,37,66,69,14,52,55,23,69,98,44,10,31,21,35,15,48,37,29,40,80,72,59,55,35,47,22,64,63,25,56,23,35,32,20,75,49,1,52,8,11,83,0,64,41,67,69,21,25,94,51,28,27,82,36,87,24
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+apple - 77
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+65 - grape
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const variableName = getRandomNumber();
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+function addNumbers(a, b) { return a + b; }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+66 + 86,49,10,62,7,13,43,51,21,61,16,2,97,36,69,10,17,74,19,57,17,56,35,13,15,70,54,20,29,95,84,76,75,69,22,79,27,99,84,47,86,20,55,70,93,18,23,45
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+// This is a comment
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+orange
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const variableName = getRandomNumber();
+4,92,75,17,1,91,85,65,33,81,17,71,95,84,86,23,71,28,7,24,10,55,83,14,53,58,9,81,90,12,25,17,47,46,20,8,84,30,66,84,18,32,7,27,17,56,18,63,73,34,20,13,1,8,99,90,14,87,74,9,1,35,83,91,51,2,28,97,88,94,68,90,29,98,52,41,38,22,52,44,42,73 - banana
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+63,45,49,0,53,18,72,30,16,5,87,43,74,3,84,79,61,27,22,8,72,73 + kiwi
+const formatDate = date => new Date(date).toLocaleDateString();
