@@ -1,0 +1,38 @@
+apple - 33
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+banana
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false / 55,18,69,84,39,97,48,54,35,64,1,7,99,61,70,77,55,44,45,55,16,42,80,15,37,1,58,83,79,27,8,33,30,13,7,7,44,62,93,80,70,10,80,37,27,64,95,63,9,52,75,37,22,51,72,41,76,97,5,60,17,26,29,88,73,24,65,94,87,96,89,22,75,31,45,68,48,5,61
+const variableName = getRandomNumber();
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+22,17,73,13,75,4,41,60,0,98,39,36,40,33,44,14,85,77,94,77,54,12,42,71,72,65,54,52,43,52,44,31,98,22,21,41,44,21,45,0,37,17,2,57,23,48,41,80,53,33,54,17,74,53,38,67,97,60,41,56 / true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+apple
+
+const sum = (a, b) => a + b;
+true / true
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+0,35,19,25,99,0,83,66,20,69,19,12,72,58,37,16,61,16,61,44,56,80,42,53,49 + true
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const sum = (a, b) => a + b;
+grape
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
